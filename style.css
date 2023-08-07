@@ -1,0 +1,30 @@
+:root {
+  --rf-brand: #fb8d19;
+  --rf-brand-rgb: 248, 54, 145;
+  --rf-dark: #212237;
+  --rf-body: #989898;
+  --f-main: "Raleway", sans-serif;
+  --transition: all .6s cubic-bezier(.165, .84, .44, 1);
+  --shadow: 0px, 15px, 30px, rgba(0,0,0,0.1);
+    }
+
+#home {
+    background-image: url(home.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#about {
+   background-color: green;
+}
+
+
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-title {
+  max-width: 550px;
+  margin: 0 auto 60px auto;
+}
